@@ -38,6 +38,21 @@ public class Main {
         System.out.println(myText);
         System.out.println(myLetter);
 
+        //  concatenation
+
+        String firstName = "John ";
+        String lastName = "Doe";
+        String fullName = firstName + lastName;
+        System.out.println(fullName);
+
+        int x = 5;
+        int y = 6;
+        System.out.println(x + y); // Print the value of x + y
+
+
+        int a = 5, b = 6, c = 50, d = 8;
+        System.out.println(a + b + c + d);
+
 
     }
 }
