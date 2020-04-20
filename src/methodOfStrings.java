@@ -42,6 +42,19 @@ public class methodOfStrings {
 //      \t	Tab
 //      \b	Backspace
 //      \f	Form Feed
+
+        //
+        String myLines = """
+                This is for sure
+                a multi-line
+                string that \n
+                I have made to show 
+                \t these commands \r that exist
+                in new text block feature
+                """;
+
+        System.out.println(myLines);
+
     }
 
 }
